@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+  }
+  body{
+    margin: 0px auto;
+    background: url("1.jpeg");
+    align-items: center;
+
+  
+  }
+  
+  
+  .box{
+    margin-top: 200px;
+    height: 500px;
+  }
+  
+  .text{
+      text-align: center;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+  }
+  .number{
+      font-size: 150px;
+      text-align: center;
+      color: rgb(2, 31, 31);
+  }
+  
+ #btn-0{
+     margin-left: 520px;
+ }
+ .btn{
+ position: relative;
+ display: inline-block;
+ margin: 0;
+ padding: 1.5rem 4.5rem;
+ background: blueviolet;
+ color: #ffffff;
+ font-family: inherit;
+ font-size: 2.0rem;
+ font-weight: 300;
+ line-height: normal;
+ border: 0;
+ border-radius: 0.4rem;
+ box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+ -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+ cursor: pointer;
+ -webkit-transition: background 250ms, box-shadow 250ms;
+ transition: background 250ms, box-shadow 250ms;
+}
+
+ .btn:hover{
+      background-color:palevioletred;
+      outline: none;
+      font-weight: 300;
+    box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.6);
+      
+  }
+
+
+.btn:active, .btn:focus {
+  outline: none;
+}
+.btn:active {
+  box-shadow: -4px 4px 24px rgba(0, 0, 0, 0.8);
+}
+
+.btn .text {
+  position: relative;
+  z-index: 2;
+}
+.reset {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 600px;
+  height: 8vh;
+  width: 10vw;
+  background-color: pink;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 400px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border: 0;
+  border-radius: 0.4rem;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  -webkit-transition: background 250ms, box-shadow 250ms;
+  transition: background 250ms, box-shadow 250ms;
+}
+.reset:hover {
+  background: #8f3838;
+  color:rgb(255, 255, 255);
+  font-weight: 300;
+  box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.6);
+}
+.reset:active, .reset:focus {
+  outline: none;
+}
+.reset:active {
+  box-shadow: -4px 4px 24px rgba(0, 0, 0, 0.8);
+}
+
+.reset .text {
+  position: relative;
+  z-index: 2;
+}
